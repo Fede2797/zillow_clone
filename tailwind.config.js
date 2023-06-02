@@ -14,6 +14,9 @@ export default {
       fontFamily: {
         'frank-ruhl': 'Frank Ruhl Libre',
         'open-sans': 'Open Sans',
+      },
+      colors: {
+        'darkgrey': '#2A2A33'
       }
     },
   },
