@@ -16,8 +16,12 @@ export default {
         'open-sans': 'Open Sans',
       },
       colors: {
-        'darkgrey': '#2A2A33'
-      }
+        'darkgrey': '#2A2A33',
+        'blue': '#006aff'
+      },
+      boxShadow: {
+        'custom': ['0 0 0px 1px #FFF', '0 0 2px 3px #A6E5FF', '0 0 2px 3px blue'],
+      },
     },
   },
   plugins: [],
