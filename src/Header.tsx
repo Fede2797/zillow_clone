@@ -1,10 +1,11 @@
 import { Navbar } from './Navbar';
 import { SearchBar } from './SearchBar';
 import { useState } from "react"
+import { SideBar } from './SideBar';
 
 export const Header = () => {
 
-  const [showsideBar, setShowSideBar] = useState(true);
+  const [showsideBar, setShowSideBar] = useState(false);
   const toggleSideBar = () => setShowSideBar( !showsideBar );
 
   return (
@@ -15,18 +16,7 @@ export const Header = () => {
           <SearchBar />
         </div>
         {/* SideBar */}
-        <div className={`${ showsideBar ? 'block' : 'hidden'} absolute top-0 bottom-0 left-0 right-0 h-screen bg-white z-auto`}>
-          <ul className='mt-[60px] w-full flex flex-col font-open-sans text-[15px] [&>*]:py-3 [&>*]:pl-[13px] [&>*]:h-[53px] [&>*]:border-t-[1px] [&>*:last-child]:border-b-[1px]'>
-            <li>Buy</li>
-            <li>Rent</li>
-            <li>Sell</li>
-            <li>Home Loans</li>
-            <li>Agent finder</li>
-            <li>Manage Rentals</li>
-            <li>Advertise</li>
-            <li>Help</li>
-          </ul>
-        </div>
+        <SideBar showsideBar={showsideBar} />
     </header>
   )
 }

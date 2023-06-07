@@ -17,7 +17,9 @@ export default {
       },
       colors: {
         'darkgrey': '#2A2A33',
-        'blue': '#006aff'
+        'blue': '#006aff',
+        'textGrey': '#596b82',
+        'bgGrey': '#f9f9fb',
       },
       boxShadow: {
         'custom': ['0 0 0px 1px #FFF', '0 0 2px 3px #A6E5FF', '0 0 2px 3px blue'],
