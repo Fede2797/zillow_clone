@@ -16,7 +16,7 @@ export const Header = () => {
           <SearchBar />
         </div>
         {/* SideBar */}
-        <SideBar showsideBar={showsideBar} />
+        <SideBar toggleSideBar={toggleSideBar} showsideBar={showsideBar} />
     </header>
   )
 }

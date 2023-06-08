@@ -23,6 +23,7 @@ export default {
       },
       boxShadow: {
         'custom': ['0 0 0px 1px #FFF', '0 0 2px 3px #A6E5FF', '0 0 2px 3px blue'],
+        'grey-xl': '0px_2px_4px_0px_rgba(22,34,250,0.3), 5px_15px_rgb(209, 209, 213)',
       },
     },
   },
