@@ -15,17 +15,15 @@ export const MainContent = () => {
                 <h2 className="text-textGrey">Sign in for a more personalized experience</h2>
                 <button className="mt-4 px-4 py-[9px] rounded-[4px] outline outline-1 outline-blue text-blue font-bold hover:outline-[#0d4599] hover:text-[#0d4599] hover:bg-[#f2faff] transition-all">Sign in</button>
             </div>
-            {/* Mobile picture */}
+            {/* Picture */}
             <div className="w-[600px] h-[144px] bg-[url('pictures/GatedCarousel_Mobile.webp')] bg-center sm:bg-[url('pictures/GatedCarousel_Desktop.webp')] sm:w-[792px] sm:h-[248px] sm:bg-left bg-no-repeat">
             </div>
-            {/* Desktop picture */}
-            {/* <img className="hidden h-[248px] sm:block" src="pictures/GatedCarousel_Desktop.webp" alt="" /> */}
         </section>
         {/* Second section - "Buy/Sell/Rent a Home" */}
         <section className="flex flex-col items-center pt-12 pb-6 bg-bgGrey font-open-sans lg:flex-row lg:gap-6 lg:pt-16 lg:pb-10 lg:justify-center">
             {
                 articles.map( a => (
-                    <div className="group mb-6 p-6 flex flex-col items-center shadow-[0px_2px_4px_0px_rgba(0,0,0,0.3)] bg-white text-center xs:max-w-[88%] xs:rounded-[4px] xs:items-start xs:text-start xs:p-4 sm:flex-row md:max-w-[632px] lg:flex-col lg:w-full lg:max-w-[384px] lg:h-[536px] lg:p-6 lg:items-center lg:text-center hover:cursor-pointer lg:hover:scale-105 lg:transition lg:ease-in-out lg:duration-200 hover:shadow-[0px_2px_8px_1px_rgba(0,0,0,0.3)]">
+                    <div key={a.title} className="group mb-6 p-6 flex flex-col items-center shadow-[0px_2px_4px_0px_rgba(0,0,0,0.3)] bg-white text-center xs:max-w-[88%] xs:rounded-[4px] xs:items-start xs:text-start xs:p-4 sm:flex-row md:max-w-[632px] lg:flex-col lg:w-full lg:max-w-[384px] lg:h-[536px] lg:p-6 lg:items-center lg:text-center hover:cursor-pointer lg:hover:scale-105 lg:transition lg:ease-in-out lg:duration-200 hover:shadow-[0px_2px_8px_1px_rgba(0,0,0,0.3)]">
                         <img className="max-h-[188px] mt-4 sm:w-[45%] sm:h-[188px] lg:w-auto" src={a.image} alt="" />
                         <div className="flex flex-col sm:w-[55%] md:ml-4 lg:w-auto lg:items-center">
                             <h1 className="mt-4 text-[24px] font-frank-ruhl">{a.title}</h1>

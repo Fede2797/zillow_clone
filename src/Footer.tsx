@@ -1,11 +1,10 @@
+import { DropDownSection } from './DropDownSection';
 
 export const Footer = () => {
+
   return (
-    <div>
-      Real Estate
-      Rentals
-      Mortgage Rates
-      Browse Homes
+    <div className="flex flex-col font-open-sans">
+      <DropDownSection />
 
       About
       Zestimates
