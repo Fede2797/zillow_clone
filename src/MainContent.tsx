@@ -16,7 +16,7 @@ export const MainContent = () => {
                 <button className="mt-4 px-4 py-[9px] rounded-[4px] outline outline-1 outline-blue text-blue font-bold hover:outline-[#0d4599] hover:text-[#0d4599] hover:bg-[#f2faff] transition-all">Sign in</button>
             </div>
             {/* Picture */}
-            <div className="w-[600px] h-[144px] bg-[url('pictures/GatedCarousel_Mobile.webp')] bg-center sm:bg-[url('pictures/GatedCarousel_Desktop.webp')] sm:w-[792px] sm:h-[248px] sm:bg-left bg-no-repeat">
+            <div className="w-[600px] h-[144px] bg-[url('../pictures/GatedCarousel_Mobile.webp')] bg-center sm:bg-[url('../pictures/GatedCarousel_Desktop.webp')] sm:w-[792px] sm:h-[248px] sm:bg-left bg-no-repeat">
             </div>
         </section>
         {/* Second section - "Buy/Sell/Rent a Home" */}

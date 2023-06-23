@@ -14,9 +14,9 @@ export default {
     extend: {
       backgroundImage: {
         'smhero': "url('../pictures/womanonporch_mobile375.webp')",
-        'mdhero': "url('./pictures/womanonporch_nationalcampaign_768wtabletportrait.webp')",
-        'lghero': "url('./pictures/1024wtabletlandscape_nationalbrand.webp')",
-        'xlhero': "url('./pictures/bg1920w.webp')",
+        'mdhero': "url('../pictures/womanonporch_nationalcampaign_768wtabletportrait.webp')",
+        'lghero': "url('../pictures/1024wtabletlandscape_nationalbrand.webp')",
+        'xlhero': "url('../pictures/bg1920w.webp')",
       },
       fontFamily: {
         'frank-ruhl': 'Frank Ruhl Libre',
